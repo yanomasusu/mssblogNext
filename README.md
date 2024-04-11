@@ -1,5 +1,5 @@
 # MSSBLOG=>NEXT ver 1.0(とりあえず最低限動くようにした版)
-弊サイト(http://www.masusu.jp/)のNext.jsプロジェクトのリポジトリです。
+弊サイト(http://www.masusu.jp/) のNext.jsプロジェクトのリポジトリです。
 
 
 
