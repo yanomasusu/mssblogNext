@@ -12,7 +12,7 @@ MSSどす。
 
 本BLOGのStaticなSiteをGenerateしているNext.jsのプロジェクトを公開リポジトリとしてgithubに配置しました。
 
-https://github.com/yanomasusu/mssblogNext<https://github.com/yanomasusu/mssblogNext>
+<https://github.com/yanomasusu/mssblogNext>
 
 デバグ用コードとか残りまくってるイケてないソースコードがいっぱいです・・・・
 
