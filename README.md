@@ -1,3 +1,12 @@
+# MSSBLOG=>NEXT ver 1.0(とりあえず最低限動くようにした版)
+弊サイト(http://www.masusu.jp/)のNext.jsプロジェクトのリポジトリです。
+
+
+
+以下、Next.jsで生成されたREADME
+
+---
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
