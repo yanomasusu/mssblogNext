@@ -22,7 +22,7 @@ const Post: NextPage<PostProps> = (props) => {
   const pid = props.pid;
   // const postFileName = `./post_${id}.json`;
   const pageData = JSON.parse(props.pageData)
-  const xPostUrl = `https://twitter.com/intent/tweet?screen_name=masusu&ref_src=twsrc%5Etfw&text=${pageData.data.title}&url=http://www.masusu.jp/${pid}&hashtags=mssblog`
+  const xPostUrl = `https://twitter.com/intent/tweet?screen_name=masusu&ref_src=twsrc%5Etfw&text=${pageData.data.title}&url=http://www.masusu.jp/post/${pid}&hashtags=mssblog`
 
   // console.log(JSON.stringify(props.pageData));
   return (
