@@ -53,8 +53,12 @@ export const getStaticProps = async () => {
     }
     const pageData = await fsPromises.readFile(filename, { encoding: "utf8" });
     const metaData = matter(pageData)['data']
-    const date = metaData['date'].toLocaleDateString()
     const title = metaData['title']
+    if (typeof(metaData['date']) == 'string') {
+      console.log(`-=-=-=-=  !!! LOADING PAGEDATA FAILED !!!    type of post date format is incorrect filename:${pageAddress}`)
+      return {name:`none:none`, address: ''}  // TODO エラー処理できるなにかに変える
+    }
+    const date = metaData['date'].toLocaleDateString()
     return {name:`${date}:${title}`, address: pageAddress}
   }))
   return {props: {articles}}
